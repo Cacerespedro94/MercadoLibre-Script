@@ -1,14 +1,14 @@
 
 ### MercadoLibre Support Script
 
-###Instalar
+### Instalar
 
 Correr el siguiente comando en el repositorio para descargar las librerías utilizadas.
 ```
 composer install
 ```
 
-###Modo de uso
+### Modo de uso
 
 
 Desde el repositorio raíz correr "./mercadolibre items seller_id=VALOR DE ID"
@@ -19,7 +19,7 @@ Desde el repositorio raíz correr "./mercadolibre items seller_id=VALOR DE ID"
 ./mercadolibre items seller_id=179571326
 ```
 
-###Guardar
+### Guardar
 
 Ejecutar el comando "./mercadolibre items seller_id=VALOR DE ID > archivo.formato"
 
