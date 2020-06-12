@@ -14,7 +14,7 @@ use Minicli\Command\CommandCall;
 	$app->setSignature('./mercadolibre items');
 	$app->registerCommand('items', function(CommandCall $input) {
 
-		$seller_id = $input->getParam('seller_id');
+	$seller_id = $input->getParam('seller_id');
 
 
 	$client = new GuzzleHttp\Client();
@@ -23,8 +23,8 @@ use Minicli\Command\CommandCall;
 	
 	$url_seller = "https://api.mercadolibre.com/sites/MLA/search?seller_id=$seller_id";
 	
-		$res = $client->request('GET', $url_seller
-);
+		
+	$res = $client->request('GET', $url_seller);
 
 	$body = $res->getBody();
 	
